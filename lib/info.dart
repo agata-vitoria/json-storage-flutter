@@ -1,11 +1,11 @@
-class Teste {
+class Info {
   String name;
   int age;
   String hobby;
 
-  Teste({this.name, this.age, this.hobby});
+  Info({this.name, this.age, this.hobby});
 
-  Teste.fromJson(Map<String, dynamic> json) {
+  Info.fromJson(Map<String, dynamic> json) {
     name = json['name'];
     age = json['age'];
     hobby = json['hobby'];
